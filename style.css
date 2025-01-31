@@ -1,0 +1,158 @@
+body {
+    font-family: 'Times New Roman', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    position: sticky;
+    background: rgb(77, 108, 60);
+    font-size: 18px;
+    /* Besarkan ukuran font di body */
+}
+
+header {
+    background: rgb(227, 255, 182);
+    color: rgb(52, 127, 68);
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(70, 147, 64, 0.922);
+    font-size: 18px;
+    position: sticky;
+    /* Besarkan ukuran font di header */
+}
+
+nav ul li a {
+    color: rgb(24, 105, 13);
+    text-decoration: rgb(4, 108, 4);
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    position: sticky;
+    /* Besarkan ukuran font di link menu */
+}
+
+section {
+    margin: 20px;
+    background: rgb(206, 236, 164);
+    color: rgb(36, 67, 12);
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 2px 5px rgb(222, 207, 207);
+    font-size: 20px;
+    /* Besarkan ukuran font di section */
+}
+
+.produk-item {
+    border: 1px solid rgb(252, 252, 252);
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    position: sticky;
+    text-align: center;
+    box-shadow: 0 2px 5px rgb(253, 246, 246);
+    transition: transform 0.3s;
+    font-size: 20px;
+    /* Besarkan ukuran font di produk-item */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: rgba(37, 86, 27, 0.998);
+    color: white;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    /* Besarkan ukuran font di footer */
+}
+
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #28a745;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.produk-item {
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.produk-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.produk-item img {
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.produk-item img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background: #28a745;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
